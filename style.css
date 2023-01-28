@@ -4,7 +4,11 @@ body {
 
 .header {
     background-color: #000000;
+}
+
+.header a {
     color: #b01111;
+    text-decoration: none;
 }
 
 .headerTitle {
@@ -34,22 +38,23 @@ body {
     padding: 15px 0px;
 }
 
-a {
+.headerBar a {
     color: #A6AAB0;
     text-decoration: none;
 }
 
-a:hover {
+.headerBar a:hover {
     color: #FFF8F2;
     text-decoration: underline;
 }
 
-.content {
+.dragon {
     display: flex;
     justify-content: center;
 }
 
-.content img {
+.dragon img {
     opacity: 0.5;
     padding-top: 30px;
+    z-index: -1;
 }
