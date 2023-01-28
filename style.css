@@ -1,0 +1,28 @@
+.header {
+    background-color: #000000;
+    color: red;
+}
+
+.headerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#logo {
+    width:100%;
+    max-width:125px;
+    margin: 0px 25px;
+}
+
+.title {
+    font-size: 4.5em;
+}
+
+.headerBar {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
