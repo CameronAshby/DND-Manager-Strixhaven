@@ -1,6 +1,10 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
 .header {
     background-color: #000000;
-    color: red;
+    color: #b01111;
 }
 
 .headerTitle {
@@ -22,7 +26,30 @@
 
 .headerBar {
     margin-top: 30px;
+    background-color: #26282A;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 1.5em;
+    padding: 15px 0px;
+}
+
+a {
+    color: #A6AAB0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFF8F2;
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content img {
+    opacity: 0.5;
+    padding-top: 30px;
 }
