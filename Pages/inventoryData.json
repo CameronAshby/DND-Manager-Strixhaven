@@ -1,0 +1,26 @@
+{
+    "bag_of_holding": {
+        "items": [
+            {
+                "name": "Item One",
+                "quantity": 1,
+                "description": "Item One does things"
+            },
+            {
+                "name": "Item Two",
+                "quantity": 1,
+                "description": "Item Two is different"
+            },
+            {
+                "name": "Item Three",
+                "quantity": 3,
+                "description": "Item Three is something"
+            },
+            {
+                "name": "Item Three",
+                "quantity": 3,
+                "description": "Item Three is something"
+            }
+        ]
+    }
+}
