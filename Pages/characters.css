@@ -6,7 +6,7 @@
 }
 
 .characterContainer {
-    width: 75%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,13 +20,39 @@
 }
 
 .pcContent {
-    width: 100%;
+    width: 50%;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.character {
+    display: flex;
+    width: 315px;
+    padding: 15px;
 }
 
 .character img {
     max-width: 100px;
+}
+
+.characterDetails {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-image: url(../Images/flair.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-weight: bold;
+}
+
+.characterName {
+    font-size: 1.25em;
+    color: #b01111;
 }
