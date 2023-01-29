@@ -18,8 +18,12 @@ function buildInventory() {
     }
 
     for(let i=0; i<bagOfHoldingItems.length; i++) {
-        $('#addButton'+[i+1]).on('click',addQuantity);
-        $('#minusButton'+[i+1]).on('click',minusQuantity);
+        $('#addButton'+[i]).on('click',() => {
+            addQuantity(i);
+        });
+        $('#minusButton'+[i]).on('click',() => {
+            minusQuantity(i);
+        });
     }
 }
 
@@ -31,12 +35,12 @@ function removeItem() {
 
 }
 
-function addQuantity() {
-    console.log('adding');
+function addQuantity(itemId) {
+    console.log('adding'+itemId);
 }
 
-function minusQuantity() {
-    console.log('subtracting');
+function minusQuantity(itemId) {
+    console.log('subtracting'+itemId);
 }
 
 window.onload = buildInventory;

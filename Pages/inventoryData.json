@@ -2,25 +2,25 @@
     "bag_of_holding": {
         "items": [
             {
-                "id": 1,
+                "id": 0,
                 "name": "Item One",
                 "quantity": 1,
                 "description": "Item One does things"
             },
             {
-                "id": 2,
+                "id": 1,
                 "name": "Item Two",
                 "quantity": 1,
                 "description": "Item Two is different"
             },
             {
-                "id": 3,
+                "id": 2,
                 "name": "Item Three",
                 "quantity": 3,
                 "description": "Item Three is something"
             },
             {
-                "id": 4,
+                "id": 3,
                 "name": "Item Four",
                 "quantity": 3,
                 "description": "Item Three is something"
