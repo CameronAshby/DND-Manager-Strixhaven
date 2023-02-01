@@ -8,9 +8,9 @@ function buildInventory() {
             `<div class='item'>
                 <div id=itemName`+bagOfHoldingItems[i].id+` class='itemName'>`+bagOfHoldingItems[i].name+`</div>
                 <div id=itemDescription`+bagOfHoldingItems[i].id+` class='itemDescription'>`+bagOfHoldingItems[i].description+`</div>
-                <div class='itemQuantity'>
+                <div class='itemQuantityContainer'>
                     <button id=addButton`+bagOfHoldingItems[i].id+` type='button' class='addButton'>+</button>
-                    `+'&nbsp&nbsp'+bagOfHoldingItems[i].quantity+'&nbsp&nbsp'+`
+                        <div id=itemQuantity`+bagOfHoldingItems[i].id+` class='itemQuantity'>`+bagOfHoldingItems[i].quantity+`</div>
                     <button id=minusButton`+bagOfHoldingItems[i].id+` type='button' class='minusButton'>-</button>
                 </div>
             </div>`
@@ -36,11 +36,13 @@ function removeItem() {
 }
 
 function addQuantity(itemId) {
-    console.log('adding'+itemId);
+    itemData.bag_of_holding.items[itemId].quantity++;
+    $('#itemQuantity'+itemId).html(itemData.bag_of_holding.items[itemId].quantity);
 }
 
 function minusQuantity(itemId) {
-    console.log('subtracting'+itemId);
+    itemData.bag_of_holding.items[itemId].quantity--;
+    $('#itemQuantity'+itemId).html(itemData.bag_of_holding.items[itemId].quantity);
 }
 
 window.onload = buildInventory;

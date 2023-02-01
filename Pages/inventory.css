@@ -45,8 +45,12 @@
     padding: 10px 0px;
 }
 
-.itemQuantity {
+.itemQuantityContainer {
     display: flex;
     justify-content: center;
     padding: 10px 0px;
+}
+
+.itemQuantity {
+    padding: 0px 10px;
 }
