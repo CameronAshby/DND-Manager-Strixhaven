@@ -8,6 +8,7 @@
 .bagTitle {
     color: #b01111;
     font-size: 3em;
+    margin-bottom: 10px;
 }
 
 #newItemButton {
