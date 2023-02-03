@@ -25,14 +25,18 @@ function buildInventory() {
             minusQuantity(i);
         });
     }
+
+    $('#newItemButton').on('click',() => {
+        addItem();
+    })
 }
 
 function addItem() {
-
+    console.log('adding item');
 }
 
 function removeItem() {
-
+    console.log('removing item');
 }
 
 function addQuantity(itemId) {

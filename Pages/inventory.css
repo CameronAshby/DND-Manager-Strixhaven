@@ -10,6 +10,12 @@
     font-size: 3em;
 }
 
+#newItemButton {
+    background-color: #26282A;
+    color: #FFFFFF;
+    padding: 6px;
+}
+
 .bagItems {
     width: 90%;
     display: flex;
